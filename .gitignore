@@ -1,0 +1,8 @@
+# no subir la carpeta my_database
+/my_database
+
+# .env
+.env
+
+/__pycache__
+
