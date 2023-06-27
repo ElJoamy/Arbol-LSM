@@ -98,3 +98,32 @@ Además de las funcionalidades mencionadas, se sugieren las siguientes mejoras y
 
 Recuerda que estas mejoras y consideraciones adicionales no son estrictamente requeridas, pero pueden mejorar la funcionalidad y el rendimiento general de un árbol LSM.
 Estas mejoras ya están implementadas en el codigo de este repositorio. 
+
+## Configuración del archivo .env
+
+El archivo `.env` es un archivo de configuración que se utiliza para almacenar variables de entorno en un formato clave-valor. En el contexto de la implementación de LSMTree, se utiliza para definir la ruta del directorio de la base de datos y la ubicación del archivo de respaldo del LSMTree.
+
+El archivo `.env` debe tener las siguientes variables:
+
+- `DB_PATH`: La ruta del directorio de la base de datos donde se guardarán las SSTables. Puedes proporcionar una ruta absoluta o relativa al directorio actual. El valor predeterminado es `./my_database/`.
+
+- `FILEPATH`: La ubicación completa del archivo de respaldo del LSMTree. Esto se utiliza para guardar y cargar el LSMTree utilizando el método `save_to_disk` y `load_from_disk`. El valor predeterminado es `${DB_PATH}lsm_tree.pkl`.
+
+Puedes ajustar los valores de estas variables según tus preferencias y requisitos.
+
+Asegúrate de crear un archivo `.env` en el mismo directorio que tu script de Python y asegúrate de que las variables estén configuradas correctamente antes de ejecutar el código.
+
+Aquí hay un ejemplo de cómo podría verse un archivo `.env`:
+
+```
+DB_PATH=./my_database/
+FILEPATH=${DB_PATH}lsm_tree.pkl
+```
+
+En este ejemplo, el directorio de la base de datos se establece en `./my_database/` y el archivo de respaldo del LSMTree se ubicará en `${DB_PATH}lsm_tree.pkl`.
+
+Recuerda que debes asegurarte de tener la biblioteca `python-dotenv` instalada para poder cargar y utilizar las variables del archivo `.env`. Puedes instalarla con el siguiente comando:
+
+```bash
+pip install python-dotenv
+```
