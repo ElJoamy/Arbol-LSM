@@ -135,3 +135,9 @@ Recuerda que debes asegurarte de tener la biblioteca `python-dotenv` instalada p
 ```bash
 pip install python-dotenv
 ```
+
+## Contribuciones
+Si deseas contribuir en el proyectopuedes enviarme un mensaje a 
+[gmail](mailto:joamysalguero1@gmail.com)
+o por linkedin
+[linkedin](https://www.linkedin.com/in/joamy5902/)
