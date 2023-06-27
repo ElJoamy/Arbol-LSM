@@ -42,6 +42,14 @@ La clase LSMTree se puede configurar con los siguientes parámetros en su constr
 
 ## Uso
 
+El archivo [lsm_tree.py](/lsm_tree.py) contiene la implementación de la clase LSMTree.
+
+El archivo [tests.py](/tests.py) contiene un ejemplos de uso de la clase LSMTree y sus funcionalidades.
+
+Recuerda implementar las variables de entorno en el archivo [.env](/.env) antes de ejecutar el archivo [tests.py](/tests.py).
+
+Y no olvides instalar el archivo [requirements.txt](/requirements.txt) antes de ejecutar el archivo [tests.py](/tests.py).
+
 A continuación se muestra un ejemplo básico de cómo utilizar la clase LSMTree:
 
 ```python
