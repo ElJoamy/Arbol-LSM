@@ -39,7 +39,7 @@ print(updated_value2)  # Imprime "new_value2"
 lsm_tree.put("temp_key1", "temp_value1", ttl=4)  # Clave temporal con tiempo de vida de 4 segundos
 lsm_tree.put("temp_key2", "temp_value2", ttl=5)  # Clave temporal con tiempo de vida de 5 segundos
 
-time.sleep(6)  # Esperar 15 segundos para que las claves temporales expiren
+time.sleep(3)  # Esperar 15 segundos para que las claves temporales expiren
 
 # Obtener valores de claves temporales expiradas
 expired_value1 = lsm_tree.get("temp_key1")  # Retorna None, ya que la clave ha expirado

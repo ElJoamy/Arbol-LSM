@@ -136,6 +136,11 @@ Recuerda que debes asegurarte de tener la biblioteca `python-dotenv` instalada p
 pip install python-dotenv
 ```
 
+## Presentación
+la presentacion esta ubicada en canva por medio de este link puede acceder
+[Presentacion en CANVA](https://www.canva.com/design/DAFnCTJt-JU/ElzO5BdWSFHXPPXnX_F1mw/edit?utm_content=DAFnCTJt-JU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
 ## Contribuciones
 Si deseas contribuir en el proyectopuedes enviarme un mensaje a 
 [gmail](mailto:joamysalguero1@gmail.com)
