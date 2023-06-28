@@ -139,6 +139,8 @@ pip install python-dotenv
 ## Presentación
 la presentacion esta ubicada en canva por medio de este link puede acceder
 [Presentacion en CANVA](https://www.canva.com/design/DAFnCTJt-JU/ElzO5BdWSFHXPPXnX_F1mw/edit?utm_content=DAFnCTJt-JU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+video de presentacion
+[video de presentacion en Drive](https://drive.google.com/drive/folders/1HgG-jisRKq9_-lrH7xOw-KqQ2b13mTTW?usp=sharing)
 
 
 ## Contribuciones
